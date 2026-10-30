@@ -1,0 +1,14 @@
+group,title,setting,param,dataset,queries,accuracy,seconds
+chaining,Forward vs. backward chaining,forward chaining (well-founded semantics),,RuleTaker dev,75872,100.0,7.722
+chaining,Forward vs. backward chaining,backward chaining (SLDNF + tabling),,RuleTaker dev,75872,100.0,6.015
+world_assumption,Closed vs. open world,closed world (negation as failure),,RuleTaker test[:5000],5000,100.0,0.737
+world_assumption,Closed vs. open world,"open world (classical negation, resolution)",,RuleTaker test[:5000],5000,74.84,1.257
+proof_budget,Resolution time budget per proof,time limit 0.05 s,0.05,FOLIO validation,203,86.7,4.135
+proof_budget,Resolution time budget per proof,time limit 0.1 s,0.1,FOLIO validation,203,87.68,5.753
+proof_budget,Resolution time budget per proof,time limit 0.3 s,0.3,FOLIO validation,203,87.68,11.949
+proof_budget,Resolution time budget per proof,time limit 1.0 s,1.0,FOLIO validation,203,87.68,32.219
+fol_preprocessing,FOL preprocessing,full system,,FOLIO train+validation,1204,82.81,55.987
+fol_preprocessing,FOL preprocessing,without symbol repair,,FOLIO train+validation,1204,79.82,58.06
+fol_preprocessing,FOL preprocessing,free goal variables universal (not existential),,FOLIO train+validation,1204,82.39,54.237
+nl_only,FOLIO from natural language only,English parser + resolution,,FOLIO validation,203,64.04,8.628
+nl_only,FOLIO from natural language only,majority-class baseline (always False),,FOLIO validation,203,64.53,

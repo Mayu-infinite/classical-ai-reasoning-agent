@@ -1,0 +1,4 @@
+
+{"facts":["Young(Bob)"],"rules":["Young(x) -> Smart(x)"],"query":"Smart(Bob)","label":true}
+{"facts":["Young(Alice)"],"rules":["Young(x) -> Smart(x)"],"query":"Smart(Alice)","label":true}
+{"facts":["Young(Bob)"],"rules":["Young(x) -> Smart(x)"],"query":"Smart(Alice)","label":false}

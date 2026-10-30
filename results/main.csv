@@ -1,0 +1,6 @@
+dataset,correct,total,accuracy,seconds,ms_per_query
+RuleTaker test,151911,151911,100.0,17.339,0.1141
+FOLIO validation,178,203,87.68,11.659,57.4321
+FOLIO train,819,1001,81.82,42.218,42.1757
+CounterBench,1140,1200,95.0,0.172,0.1432
+Overall,154048,154315,99.83,71.387,0.4626

@@ -1,0 +1,4 @@
+{
+  "premises": ["P", "P -> Q"],
+  "query": "Q"
+}

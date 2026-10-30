@@ -1,0 +1,9 @@
+{
+  "generated": "2026-10-30T01:28:15",
+  "python": "3.12.13",
+  "platform": "Linux-7.0.5-arch1-1-x86_64-with-glibc2.44",
+  "processor": "x86_64",
+  "ruletaker_split": "test",
+  "ablations": true,
+  "wall_clock_seconds": 322.3
+}

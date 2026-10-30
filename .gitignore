@@ -1,32 +1,80 @@
 
+# ==========================================
 # Python
+# ==========================================
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
 build/
 
-# Virtual environment
+# ==========================================
+# Virtual environments
+# ==========================================
 .venv/
+venv/
+env/
 
+# ==========================================
 # Jupyter
+# ==========================================
 .ipynb_checkpoints/
 
+# ==========================================
 # Test and lint caches
+# ==========================================
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
 
-# Local datasets and generated caches
+# ==========================================
+# Local raw datasets
+# Downloaded datasets are not committed.
+# Keep the directory placeholder.
+# ==========================================
 data/raw/*
-data/processed/*
 !data/raw/.gitkeep
-!data/processed/.gitkeep
 
-# Environment variables
+# ==========================================
+# Processed data and experiment results
+# IMPORTANT:
+# Do not ignore data/processed/.
+# Evaluation results, metrics, error analysis,
+# generated CSVs and experiment outputs should
+# remain eligible for Git tracking.
+# ==========================================
+
+# Ignore only temporary files inside processed data.
+data/processed/*.tmp
+data/processed/*.temp
+data/processed/*.cache
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
 .env
 .env.*
 !.env.example
 
-# OS files
+# ==========================================
+# OS and editor files
+# ==========================================
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# Build artifacts
+# ==========================================
+*.whl
+*.tar.gz

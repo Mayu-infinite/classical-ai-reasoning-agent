@@ -1,0 +1,20 @@
+dataset,field,group,correct,total,accuracy
+RuleTaker test,depth,NatLang,7793,7793,100.0
+RuleTaker test,depth,depth-0,17347,17347,100.0
+RuleTaker test,depth,depth-1,17788,17788,100.0
+RuleTaker test,depth,depth-2,17741,17741,100.0
+RuleTaker test,depth,depth-3,17982,17982,100.0
+RuleTaker test,depth,depth-3ext,23222,23222,100.0
+RuleTaker test,depth,depth-3ext-NatLang,31017,31017,100.0
+RuleTaker test,depth,depth-5,19021,19021,100.0
+FOLIO validation,gold label,False,59,62,95.16
+FOLIO validation,gold label,True,51,72,70.83
+FOLIO validation,gold label,Uncertain,68,69,98.55
+FOLIO train,gold label,False,266,289,92.04
+FOLIO train,gold label,True,241,388,62.11
+FOLIO train,gold label,Uncertain,312,324,96.3
+CounterBench,question type,backdoor,180,200,90.0
+CounterBench,question type,basic,250,250,100.0
+CounterBench,question type,conditional,230,250,92.0
+CounterBench,question type,joint,240,250,96.0
+CounterBench,question type,nested,240,250,96.0
