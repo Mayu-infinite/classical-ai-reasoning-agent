@@ -39,7 +39,9 @@ Instead of relying on a generative model to directly predict entailment labels, 
 The implementation is modular, with separate components for language processing, logical representation, inference, causal reasoning, and evaluation.
 
 ## System Architecture
+### Overall design
 
+![System Architecture](architecture.png)
 The system uses a multi-stage architecture:
 
 1. Input normalization.
